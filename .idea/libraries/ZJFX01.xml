@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ZJFX01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ZJFX01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

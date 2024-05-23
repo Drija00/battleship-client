@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="432.0" prefWidth="321.0" styleClass="akreditacija" stylesheets="@../CSS/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIKorisnik.FXMLDocumentController">
+   <children>
+      <PasswordField fx:id="sifra" layoutX="44.0" layoutY="174.0" prefHeight="25.0" prefWidth="111.0" />
+      <TextField fx:id="ime" layoutX="44.0" layoutY="224.0" prefHeight="25.0" prefWidth="119.0" />
+      <Label layoutX="45.0" layoutY="106.0" text="Korisničko ime:" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="155.0" text="Šifra:" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button id="kreirajKorisnika" fx:id="kreirajKorisnika" layoutX="178.0" layoutY="124.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Kreiraj korisnika" textFill="#1b24d0" />
+      <Label layoutX="45.0" layoutY="254.0" text="Prezime" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="206.0" text="Ime" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <TextField fx:id="idKorisnika" layoutX="45.0" layoutY="72.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="45.0" layoutY="56.0" text="ID korisnika" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button id="promeniKorisnika" fx:id="promeniKorisnika" layoutX="176.0" layoutY="174.0" mnemonicParsing="false" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Promeni korisnika" textFill="#1b24d0" />
+      <DatePicker fx:id="datumRodjenja" layoutX="44.0" layoutY="323.0" />
+      <Label layoutX="45.0" layoutY="306.0" text="Datum rodjenja" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button id="naPrvi" fx:id="naPrvi" layoutX="45.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmePrvi" stylesheets="@../CSS/stylesheet.css" />
+      <Button id="naPredhodni" fx:id="naPredhodni" layoutX="86.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmePredhodni" stylesheets="@../CSS/stylesheet.css" />
+      <Button id="naSledeci" fx:id="naSledeci" layoutX="128.0" layoutY="385.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="35.0" styleClass="dugmeSledeci" stylesheets="@../CSS/stylesheet.css" />
+      <TextField fx:id="korisnickoIme" layoutX="44.0" layoutY="124.0" prefHeight="25.0" prefWidth="111.0" />
+   </children>
+</AnchorPane>
